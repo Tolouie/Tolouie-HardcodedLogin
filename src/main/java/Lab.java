@@ -17,10 +17,10 @@ public class Lab {
     public boolean login(String username, String password){
         if(username == "admin")
         {
-            return (password == "qwerty") ? (true):(false);
+            return password == "qwerty";
         }else if(username == "user")
         {
-            return (password == "password")?(true):(false);
+            return password == "password";
         }
         return false;
     }
